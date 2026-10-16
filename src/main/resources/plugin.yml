@@ -1,0 +1,21 @@
+name: ShadowClones
+version: 1.1.0
+main: dev.shadow.ShadowPlugin
+api-version: '1.21.9'
+description: Summons fast-moving shadow decoys, darkness, shadow step and a target trap.
+
+commands:
+  shadow:
+    description: Summon shadow decoys (run again to dismiss them early)
+    usage: /shadow
+    permission: shadowclones.use
+  shadowstep:
+    description: Swap places with a random shadow decoy
+    usage: /shadowstep
+    aliases: [sstep]
+    permission: shadowclones.use
+
+permissions:
+  shadowclones.use:
+    description: Allows use of /shadow and /shadowstep
+    default: true   # change to "op" to restrict it to operators

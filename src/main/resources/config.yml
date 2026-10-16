@@ -1,0 +1,33 @@
+# How many decoys to spawn
+count: 25
+
+# How long the effect lasts
+duration-seconds: 12
+
+# How far from you the decoys roam (and how wide the particle cloud is), in blocks
+radius: 7.0
+
+# Decoy speed in blocks per tick (20 ticks = 1 second). 1.0 = 20 blocks/second
+speed: 1.0
+
+# Black particles spawned around you each tick (higher = thicker cloud, more server load)
+particles-per-tick: 60
+
+# Cooldown after the effect ends
+cooldown-seconds: 30
+
+# If true, hitting a decoy makes it vanish in a puff of smoke
+pop-on-hit: true
+
+# Warden-style darkness for everyone near you while your shadows are active
+darkness: true
+darkness-radius: 12.0
+
+# /shadowstep: swap places with a random decoy
+step-cooldown-seconds: 2
+
+# Target trap: hit a player while your shadows are active
+trap-duration-seconds: 8   # how long the ring holds them
+trap-radius: 5.0           # size of the ring in blocks
+trap-spin: 0.04            # how fast the ring rotates (0 = still)
+trap-push: 0.9             # how hard they get shoved back to the centre
